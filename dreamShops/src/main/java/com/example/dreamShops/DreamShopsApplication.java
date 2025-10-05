@@ -8,6 +8,6 @@ public class DreamShopsApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DreamShopsApplication.class, args);
+        System.out.println("Application Started");
 	}
-
 }
