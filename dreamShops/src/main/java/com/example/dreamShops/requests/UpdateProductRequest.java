@@ -3,15 +3,12 @@ package com.example.dreamShops.requests;
 import com.example.dreamShops.models.Category;
 import lombok.Data;
 import lombok.Getter;
-import lombok.Setter;
 
 import java.math.BigDecimal;
 
 @Data
 @Getter
-@Setter
-public class AddProductRequest {
-//    private Long id;
+public class UpdateProductRequest {
     private String name;
     private BigDecimal price;
     private String brand;
